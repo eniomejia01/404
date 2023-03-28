@@ -5,10 +5,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
-
-
 .scarecrow img{
     margin: 3rem;
     width: 15rem;
@@ -29,8 +25,6 @@ header{
 }
 
 .subtitulo h2 {
-    display: flex;
-    justify-content: end;
     position: absolute;
     margin: .5rem;
     width: 21rem;
@@ -44,8 +38,6 @@ header{
 }
 
 .subtitulo p{
-    display: flex;
-    justify-content: end;
     position: absolute;
     margin: 14rem .5rem;
     width: 18rem;
@@ -66,6 +58,11 @@ header{
     padding: 2rem;
     background-color: black;
     color: white;
+}
+
+footer{
+    margin: 30rem 0.5rem;
+    text-align: center;
 }
 
 @media (min-width: 760px) {  
@@ -110,6 +107,11 @@ header{
         font-size: 24px;
         line-height: 36px;
         letter-spacing: -0.035em;
+    }
+
+    footer{
+        position: absolute;
+        margin: 35rem 0 0 25rem;
     }
 }
 
