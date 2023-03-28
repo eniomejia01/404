@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+
+
+.scarecrow img{
+    margin: 3rem;
+    width: 15rem;
+}
+
+@media (min-width: 760px) {  
+    .scarecrow img{
+        position: absolute;
+        width: 30rem;
+        margin: 5rem 5rem 0rem;
+    }
+}
+
+header{
+    margin: 2rem;
+    text-transform: uppercase;
+
+}
+
+.subtitulo h2 {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    margin: .5rem;
+    width: 21rem;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.subtitulo p{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    margin: 14rem .5rem;
+    width: 18rem;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.subtitulo a{
+    font-size: 1rem;
+    text-decoration: none;
+    position: absolute;
+    margin: 22rem .5rem;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 760px) {  
+    
+    header{
+        font-family: 'Inconsolate';
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: -0.08em;
+        font-weight: 700;
+        margin: 3rem 5rem;
+        
+    }
+    .subtitulo a{
+        margin: 28rem 45rem;
+        width: 15rem;
+        text-align: center;
+        padding: 1.5rem;
+        color: white;
+        background-color: black;
+    }
+    .subtitulo h2{
+        position: absolute;
+        margin: 5rem 45rem;
+        width: 30rem;
+    
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+    }
+    .subtitulo p{
+        position: absolute;
+        margin: 20rem 45rem;
+        width: 18rem;
+    
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+    }
+}
+
+
